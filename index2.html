@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      
+      label{
+        
+        font-weight: bold;
+        display: block;
+      }
+      
+      .form.group{
+        margin-bottom: 10px;
+      }
+      
+      body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: bisque;
+    border: 1px solid blueviolet;
+    box-shadow: 0 0 10px;
+    padding: 30px;
+    width: 300px;
+}
+    </style>
+</head>
+<body>
+  <div class="form-container">
+    
+    <h2>FORM ENTRY DATA PEGAWAI</h2>
+    <form method="post" action="">
+     
+      <div class="form group">
+        <label for="nik">NIK</label>
+        <input type ="text" id="nik" name="">
+      </div>
+      
+      <div class="form group">
+        <label for="nama">Nama</label>
+        <input type ="text" id="nama" name="">
+      </div>
+      
+      <div class="form group">
+        <label for="tlahir">Tempat Lahir</label>
+        <input type ="text" tlahir="" name="">
+      </div>
+
+      <div class="form group">
+        <label for="tanggallahir">Tanggal Lahir</label>
+        <input type="text"tanggallahir="" name="">
+      </div>
+
+      <div class="form group">
+        <label for="alamat">alamat</label>
+        
+        <textarea id="w3review" name="w3review" rows="3" cols="20"></textarea>
+
+      </div>
+
+      <div class="form group">
+        <label for="No telephon">no telephon </label>
+        <input type="text"Notelephon="" name="">
+      </div>
+
+      <div class="form group">
+        <label for="jabatan">jabatan</label>
+        <input type="text"jabatan="" name="" placeholder="-jabatan terbaru">
+      </div>
+
+      <div class="form group">
+        <label for="text">status</label>
+        <input type="text"status="" name="" placeholder="-status terbaru">
+        
+      </div>
+
+      <input type="submit" name="proses"
+      value="simpan" style="box-shadow: 4px 3px 2px black; color: aliceblue; background-color: aquamarine;">
+      <input type="reset" name="unproses" value="Batal" style="box-shadow: 4px 3px 2px black; color: blue;background-color: brown;">
+    </form>    
+  </div>
+</body>
+</html>
